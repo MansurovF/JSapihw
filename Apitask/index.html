@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+ <header> 
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <i class="fa-brands fa-amazon"></i>
+          <a class="navbar-brand" href="#">Amazon.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Catagories</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Species
+                </a>
+                <ul class="dropdown-menu" id="species">
+                  
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+ </header> 
+   <section id="Main">
+    <div class="container">
+      <div class="f-search d-flex justify-content-between align-items-center">           
+        <input type="text" class="secury mt-5" placeholder="Search smth...">
+        <button id="secondary" class="btn btn-secondary mt-5" type="button">
+          <i class="fa-solid fa-sort-down"></i> Filter 
+          </button>
+        </div>
+        <p class="fks d-none"><span id="count"></span> results are listed for the search "<span id="sp"></span>"</p>
+      </div>
+    </div>
+</section>
+   <section id="item2">
+    <div class="container">
+        <div class="containere mt-3">
+            <div id="view" class="d-none">
+              <img src="https://www.ecommerce-nation.com/wp-content/uploads/2021/11/404-angry-birds.png" alt="">
+            </div>
+              <div id="products" class="row g-4">
+
+              </div>
+          </div>
+    </div>
+   </section>
+    <script src="script.js"></script>
+</body>
+</html>

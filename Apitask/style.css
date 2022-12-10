@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header #species a {
+  text-transform: capitalize;
+}
+
+#Main .fks {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 3rem 0 0;
+}
+#Main .f-search {
+  margin-bottom: 4rem;
+}
+#Main .f-search .secury {
+  width: 80% !important;
+  border-radius: 5px;
+}
+
+#item2 .containere img {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#item2 .containere #deletedbtn {
+  color: rgb(207, 63, 63);
+  margin: 0 15px 28px 0;
+  font-size: 22px;
+  cursor: pointer;
+}
+#item2 .secondary {
+  width: 60%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 9px;
+  cursor: pointer;
+  color: azure;
+  background-color: rgb(133, 113, 84);
+}
+#item2 #view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+#item2 .special {
+  width: 60%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 9px;
+  cursor: pointer;
+  color: azure;
+  background-color: rgb(32, 218, 156);
+}
+#item2 .pro {
+  border: 2px solid rgb(32, 218, 156);
+  color: rgb(32, 218, 156);
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */
